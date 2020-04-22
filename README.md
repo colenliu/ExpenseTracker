@@ -18,7 +18,7 @@ with MongoDB
 - Install [MongoDB](https://docs.mongodb.com/manual/installation/)
 
 ###HOW TO RUN:
-1. Start MongoDB
+1. Start MongoDB + connect to local host
 2. Run index.py
     - in source code editor, just right click index.py and press `run`
     - in command line, type `python index.py`
