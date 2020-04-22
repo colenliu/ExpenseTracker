@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WELCOME TO THE BEATDAPP EXPENSE TRACKER!</title>
+    <style>
+        h1 {color: red;}
+        body {background-image: url(https://image.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg);}
+    </style>
+    <style type = "text/css">
+      body {font-family: Courier new; color:#4f494f;}
+      form input {border-radius: 7.5px;}
+      h5 {display: inline;}
+      .label {text-align: right}
+      .expenseBook {float: left; padding-top: 10px;}
+      .name {width:100%; float:left; padding:3px;}
+      .wrapper {padding-left: 25px; padding-top: 20px}
+    </style>
+</head>
+<body>
+<div class = "wrapper">
+    <h1>WELCOME TO THE BEATDAPP EXPENSE TRACKER!</h1>
+    <h3>(Powered by MongoDB)</h3>
+    <p><b>Please type in a new expense to be added, or an old expense to be removed (<mark class="blue">CAPITALIZATION</mark> matters + <mark class="blue">DUPLICATION</mark> allowed).</b></p>
+    <div class = "expenseBook_input">
+        <form method = "post" class = "form" method ='post'>
+            Name: <input type = "text" name = "name"/>
+            Cost: <input type = "text" name = "cost"/>
+            Category: <input type = "text" name = "category"/>
+            <input type = "submit" formaction = "/newexpense" value = 'Add Expense'/>
+            <input type = "submit" formaction = "/oldexpense" value = 'Remove Expense'/>
+        </form>
+    </div>
+    <div class = "expenseBook">
+        <h3>Expenses:</h3>
+        %for expense in myexpenses:
+        <div class = "expense">
+            <h5>Name:</h5> {{expense['name']}}
+            <h5>Cost:</h5> ${{expense['cost']}}
+            <h5>Category:</h5> {{expense['category']}}
+        </div>
+        %end
+    </div>
+</div>
+</body>
+</html>
