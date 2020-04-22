@@ -11,7 +11,6 @@ with MongoDB
 - Install [Python](https://www.python.org/downloads/) (`Python 3` or newer)
 - Install [PyMongo](https://api.mongodb.com/python/current/installation.html)
     - method 1: `pip install pymongo`
-    OR
     - method 2 (easy_install): `easy_install pymongo`
 - Install [Bottle](https://pypi.org/project/bottle/)
     - method 1: `pip install bottle`
