@@ -1,7 +1,7 @@
 beatdapp Expense Tracker
 ==============
 
-<h3>OVERVIEW:</h3>
+<h3>OVERVIEW</h3>
 - webpage that stores expenses by accepting user input and interacting
 with MongoDB
 - front-end written in HTML and CSS (HTML file found in views folder)
