@@ -2,12 +2,14 @@ beatdapp Expense Tracker
 ==============
 
 <h3>OVERVIEW</h3>
+
 - webpage that stores expenses by accepting user input and interacting
 with MongoDB
 - front-end written in HTML and CSS (HTML file found in views folder)
 - back-end written in Python using the Bottle framework and PyMongo driver
 
 <h3>PREREQUISITES</h3>
+
 - Install [Python](https://www.python.org/downloads/) (`Python 3` or newer)
 - Install [PyMongo](https://api.mongodb.com/python/current/installation.html)
     - method 1: `pip install pymongo`
@@ -18,6 +20,7 @@ with MongoDB
 - Install [MongoDB](https://docs.mongodb.com/manual/installation/)
 
 <h3>HOW TO RUN</h3>
+
 1. Start MongoDB + connect to local host
 2. Run index.py
     - in source code editor, just right click index.py and press `run`
