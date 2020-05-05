@@ -23,8 +23,8 @@ with MongoDB
 
 1. Start MongoDB + connect to local host
 2. Run index.py
-    - in source code editor, just right click index.py and press `run`
-    - in command line, type `python index.py`
+    - method 1: in source code editor, just right click index.py and press `run`
+    - method 2: in command line, type `python index.py`
 
 
 
